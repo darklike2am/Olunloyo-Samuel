@@ -1,0 +1,434 @@
+        /*---------------------------------------navbar----------------------------*/
+        h4:hover{
+            text-decoration: underline;
+            cursor: pointer;
+ 
+        }
+         .navbar
+         {
+             width: 1390px;
+             background-color: black;
+             display: flex;
+             height: 37px;
+             margin-top: -10px;
+             margin-right: -0px;
+             margin-left: -10px;
+         }
+         .navbar div
+         {
+             padding: 10px 30px 10px 10px;
+             border-left: 0.5px grey solid;
+             height: 12px;
+         }
+         .logo
+         {
+             padding-left: 25px;
+             height: 20px;
+             width: 70px;
+             padding: 1.5px 3px 2.5px 3px ;
+         }
+         .navbar div a{
+             text-decoration: none;
+             list-style-type: none;
+             color: white;
+         }
+         .navbar div:hover:not(:first-child){
+             border-bottom: red 5px solid;
+         }
+         .signin
+         {
+             width: 150px;
+             padding-left: 0px;
+         }
+         .signin button
+         {
+             width: 30px;
+             height: 20px;
+             background-color: black;
+             color: white;
+             float: left;
+             border-style: none;
+         }
+         .more
+         {
+             width: 100px;
+         }
+         div button{
+             float: right;
+             width: 20px;
+             height: 20px;
+             cursor: pointer;
+             color: black;
+             border-style: none;
+             border-left-color: white;
+             background-color: white;
+         }
+         .searchbox{
+             width: 150px;
+             height: 30px;
+             margin-top: -10px;
+             border-right:none;
+         }
+         .fa\fa-search{
+             
+         }
+         /*-----------------------------------body----------------------------------*/
+         body
+         {
+             background-color: rgb(236, 236, 236);
+             margin-left: 0px;
+             font-family: Helvetica, sans-serif;
+         }
+         /*----------------------------------section1--------------------------------------------*/
+         .maindiv
+         {
+             margin-top: 100px;
+             /* padding: 15px; */
+             width: 1360px;
+             height: 3000px;
+             background-color: white;
+             padding-left: 30px;
+             padding-top: 50px;  
+         }
+         div.china
+         {
+             height: 215px;
+             width: 520px;
+             background-image: url("img/thegirl.png");
+             background-repeat: no-repeat;
+             color: white;
+             padding-left: 10px;
+             padding-top: 200px; 
+             float: left;
+         }
+         .date
+         {
+             /* border: 2px solid black; */
+             text-align: right;
+             margin-top: -67px;
+             width: 1270px;
+             
+         }
+         .china h2
+         {
+             font-size: 32px;
+         }
+         div.china h4
+         {
+             font-size: 16px;
+             color: rgb(189, 189, 189);
+         } 
+         div.africa
+         {
+             margin-left: 50px;
+             float: left;
+             height: 420px;
+             width: 730px;
+             margin-right: 0px;
+ 
+         }
+         .one
+         {
+             background-image: url("img/thegirl.png");
+             height: 150px;
+             width: 320px;
+             color: white;
+             padding: 50px 10px 0px 10px;
+             margin: 5px;
+             float: left;
+         }
+         /*------------------------------------section2---------------------------------------- */
+         .two
+         {
+             /* border: 2px black solid; */
+             margin-top: 50px; 
+             width: 1280px;
+             height: 440px;
+             float: left;  
+         }
+         .two h3 b
+         {
+             margin-right: 1180px;
+             width: 70px;
+             float: right;
+         }
+         .twopointone
+         {
+             /* border: 2px black solid; */
+             width: 390px;
+             height: 270px;
+             background-clip: content-box;
+             background-image: url("img/thegirl.png");
+         }
+         .twopointtwo
+         {
+             /* border: 2px black solid; */
+             width: 455px;
+             height: 270px;
+             background-clip: content-box;
+             background-image: url("img/thegirl.png"); 
+             
+         }
+         .floater
+         {
+             float: left;
+             /* border: 2px black solid; */
+             margin-right: 20px;
+             height: 440px;
+             padding-top: 1px;
+             width: 390px;
+          }
+          .floatertwo
+          {
+             float: left;
+             /* border: 2px black solid; */
+             margin-right: 0px;
+             height: 440px;
+             padding-top: 1px;
+             width: 435px;
+          }
+          
+         div.three
+         {
+             width: 1338px;
+             /* border: 2px black solid; */
+             height: 450px;
+             background:url("img/thegirl.png");
+             margin-top: 100px ;
+             margin-left: -30px;
+             padding-left: 50px;
+             padding-top: 0px;
+             color: white;
+             float: left;
+             padding-right: -2px;
+         }
+         h6.p2
+         {
+             font-size: 20px;
+             font-weight: normal;
+             /* border: 2px solid black; */
+             margin-top: -50px;
+             margin-left: -9.2px;
+         }
+ 
+         .three p
+         {
+            margin-top: 25px;
+            font-weight:bold;
+            font-size: 45px;
+            /* border: 2px solid black; */
+            margin-left: -10px;
+         }
+         .threepointone
+         {
+             width: 440px;
+             height: 300px;
+             /* border: 2px solid black; */
+             background-image: url("img/thegirl.png");
+             float: left; 
+             margin-top: -18px;
+             margin-right: 30px;  
+         }
+         .threepoint1
+         {
+             width: 440px;
+             height: 300px;
+             /* border: 2px solid black; */
+             background-image: url("img/thegirl.png");
+             float: left;
+             margin-left: -47px;
+             margin-top: -18px;
+             margin-right: 20px;
+ 
+         }
+         .threepoint2
+         {
+             width: 440px;
+             height: 300px;
+             /* border: 2px solid black; */
+             background-image: url("thegirl.png");
+             float: left;
+             margin-left: -10px;
+             margin-top: -18px;
+             margin-right: -20px;
+         }
+ 
+         .threepointonepointone
+         {
+             width: 436px;
+             height: 100px;
+             /* border: 2px solid black; */
+             background-color: white;
+             color: rgb(42, 42, 42);
+             margin-top: 200px;
+             margin-left: -2px;
+             font-size: 23px;
+             font-weight: bold;
+             padding-left: 5px;
+             padding-top: 7px;
+         }
+         button.reel
+         {
+            background: none;
+            border: 1px solid white; 
+            color: white;
+            float: right;
+            height: 35px;
+            width: 140px;
+            margin-right: 50px;
+            margin-top: -70px;
+            border-radius: 50px;
+            padding-left: 15px;
+            text-align: left;
+            font-size: 20px;
+         }
+         /*..............................Fourth Section............................ */
+         .four
+         {
+             /* border: 2px black solid; */
+             margin-top: 50px; 
+             width: 1320px;
+             height: 440px;
+             float: left;  
+         }
+         .four h3 b
+         {
+             margin-right: 1187px;
+             width: 100px;
+             height: 40px;
+             float: right;
+             border-left:solid 2px red;
+             padding-left: 7px;
+             margin-top: 0px;
+ 
+         }
+         .fourpointone
+         {
+             /* border: 2px black solid; */
+             width: 390px;
+             height: 270px;
+             background-clip: content-box;
+             background-image: url("thegirl.png");
+         }
+         .fourpointtwo
+         {
+             /* border: 2px black solid; */
+             width: 455px;
+             height: 270px;
+             background-clip: content-box;
+             background-image: url("thegirl.png"); 
+             
+         }
+         .fourfloater
+         {
+             float: left;
+             /* border: 2px black solid; */
+             margin-right: 20px;
+             height: 440px;
+             padding-top: 1px;
+             width: 390px;
+          }
+          .floaterfour
+          {
+             float: left;
+             /* border: 2px black solid; */
+             margin-right: 0px;
+             height: 440px;
+             padding-top: 1px;
+             width: 435px;
+          }
+          .footer{
+          background: rgb(100, 99, 99);
+          height: 250px;
+          width: 102.2%;
+          position: relative;
+          margin-top: 2680px;
+          margin-left: -30px;
+          color: white;
+          }
+          .footer-p{
+             color: white;
+             font-weight: bold;
+             font-size: 25px;
+             padding-top: 20px;
+             padding-left: 35px;
+         }
+         .footer-section-one{
+             width: 250px;
+             height: 40px;
+             border-right: solid 1.5px rgb(216, 212, 212);
+             margin-left: 35px;
+             font-size: 14px;
+             padding-top: 0px;
+         }
+         .section-one-content-two{
+             margin-top: 7px;
+         }
+         .section-one-content-one a,.section-one-content-two a{
+             color: white;
+             text-decoration: none;
+         }
+         .section-one-content-one a:hover,.section-one-content-two a:hover{
+             text-decoration: underline white;
+         }
+         .footer-section-two{
+             width: 250px;
+             height: 40px;
+             border-right: solid 1.5px rgb(216, 212, 212);
+             margin-left: 305px;
+             margin-top: -40px;
+             font-size: 14px;
+         }
+         .footer-section-three{
+             width: 250px;
+             height: 40px;
+             border-right: solid 1.5px rgb(216, 212, 212);
+             margin-left: 585px;
+             margin-top: -40px;
+             font-size: 14px;
+             padding-top: 0px;
+         }
+         .footer-section-four{
+             width: 250px;
+             height: 40px;
+             border-right: solid 1.5px rgb(216, 212, 212);
+             margin-left: 865px;
+             margin-top: -40px;
+             font-size: 14px;
+             padding-top: 0px;
+         }
+         .footer-section-five{
+             width: 200px;
+             height: 40px;
+             border-right: solid 1.5px rgb(216, 212, 212);
+             margin-left: 1145px;
+             margin-top: -40px;
+             font-size: 14px;
+             padding-top: 0px;
+         }
+         .footer-two{
+             border-top:thin white solid;
+             height: 50px;
+             width: 1315px;
+             margin-top: 20px;
+             margin-left: 32px;
+         }
+         .footer-two-content-one{
+             float: left;
+             margin-right: 20px;
+             margin-top: 10px;
+             color: white;
+             font-size: 15px;
+         }
+         .footer-two-content-one:hover{
+             text-decoration: underline white;
+         }
+         .footer-two-paragraph-one{
+             font-size: 15px;
+             color: white;
+             margin-top: 25px;
+         }
+         .footer-two b:hover{
+             text-decoration: underline white;
+         }
+ 

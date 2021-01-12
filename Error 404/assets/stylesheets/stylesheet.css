@@ -1,0 +1,73 @@
+body{
+    background-color: white;
+    font-family: 'KoHo',sans-serif;
+}
+header{
+    font-weight: 570;
+    font-family: 'Roboto Mono',monospace;
+    margin: 50px;
+    font-size: 20px;
+    letter-spacing: -2.2px;
+}
+.container-scarecrow{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left:70px;
+    float: left;
+}
+.container-texts{
+    width: 500px;
+    height: 500px;
+    float: left;
+    position: relative;
+    left: 250px;
+    bottom: 50px;
+}
+.bold-text{
+    font-size: 50px;
+    text-align: left;
+    font-weight: 600;
+}
+.regular-text{
+    height: 90px;
+    width: 180px;
+    font-weight: 500;
+    position: relative;
+    bottom: 20px;
+
+}
+.homepage{
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    border: none;
+    position: relative;
+    bottom: 20px;
+}
+footer{
+    position: relative;
+    top: 500px;
+    right: 350px;
+}
+@media screen and (max-width:640px){
+    header{
+         margin: 10px;
+    }
+    .container-scarecrow{
+        float:none;
+        width:150px;
+        height:150px;
+        left: 150px;
+        top: 25px;
+    }
+    .container-texts{
+        float: none;
+        bottom: 0px;
+        left: 50px;
+    }
+    
+
+}
+

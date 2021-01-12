@@ -1,0 +1,238 @@
+body{
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-repeat: none;
+    width: 100%;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    
+}
+/* ---------------------------------NAVBAR--------------------------------------- */
+nav.navbar{
+    height: 130px;
+    width: 100%;
+    margin-left: -10px;
+    background:transparent;
+    color:black;
+    border: black 2px bold;
+    position: sticky;
+}
+.logo{
+    margin-top: 0px;
+    height: 120px;
+    width: 150px;
+}
+.actualogo{
+    height: 200px;
+    width: 200px;
+    margin-top: -50px;
+}
+.Home{
+    height: 15px;
+    width: 115px;
+    margin-left: 300px;
+    margin-top: -90px;
+    border-right: grey 1px solid;
+    /* background: grey; */
+}
+.HomeButton{
+    height: 50px;
+    width: 100px;
+    float: left;
+    margin-top: -18px;
+    background: transparent;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor:pointer;
+}
+.HomeButton:hover{
+    color:grey;
+    font-size: 16px;
+}
+
+.Delivery{
+    height: 15px;
+    width: 100px;
+    margin-left: 428px;
+    padding-left: -2px;
+    margin-top: -15px; 
+    border-right: grey 1px solid;
+    /* background: grey; */
+}
+.DeliveryButton{
+    height: 50px;
+    width: 100px;
+    float: left;
+    margin-top: -18px;
+    background: transparent;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor:pointer;
+}
+.DeliveryButton:hover{
+    color:grey;
+    font-size: 16px;
+}
+
+.AboutUs{
+    height: 15px;
+    width: 115px;
+    margin-left: 540px;
+    margin-top: -15px;
+    border-right: grey 1px solid;
+    /* background: grey; */
+}
+.AboutUsButton{
+    height: 50px;
+    width: 100px;
+    float: left;
+    margin-top: -18px;
+    background: transparent;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor:pointer;
+}
+.AboutUsButton:hover{
+    color:grey;
+    font-size: 16px;
+}
+
+.ContactUs{
+    height: 15px;
+    width: 115px;
+    margin-left: 665px;
+    margin-top: -15px;
+    border-right: grey 1px solid;
+    /* background: grey; */
+}
+.ContactUsButton{
+    height: 50px;
+    width: 100px;
+    float: left;
+    margin-top: -18px;
+    background: transparent;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor:pointer;
+}
+.ContactUsButton:hover{
+    color:grey;
+    font-size: 16px;
+}
+.YourCart{
+    height: 15px;
+    width: 115px;
+    margin-left: 790px;
+    margin-top: -15px;
+    /* background: grey;    */
+}
+.YourCartButton{
+    height: 50px;
+    width: 120px;
+    float: left;
+    margin-top: -18px;
+    background: transparent;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor:pointer;
+}
+.YourCartButton:hover{
+    color:grey;
+    font-size: 16px;
+}
+input.SearchBox{
+    height: 40px;
+    width: 565px;
+    margin-top: 18px;
+    margin-left: -580px;
+    border-radius: 50px;
+    border: grey 1px solid;
+}
+/*---------------------------------SIDE BAR----------------------------------------*/
+.sideBar{
+    align-self: left;
+    background: rgb(235, 235, 235);
+    height: 450px;
+    width: 300px;
+    padding: 10px;
+    margin-top: 70px;
+    margin-left: 25px;
+    padding-right: 30px;
+    opacity: 80%;
+    border-radius: 10px;
+}
+.sideBar\.topic{
+    width: 250px;
+    text-align: center;
+    margin-left: 30px;
+    height: 20px;
+    background: white;
+    padding-top: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    border-bottom: black 5px solid;
+}
+.sidebarlist button{
+    background: transparent;
+    border: none;
+    width: 250px;
+    text-align: left;
+    padding-left: 10px;
+}
+.sidebarlist li{
+    list-style: none;
+    border-bottom: solid grey 1.5px;
+    padding-bottom: 7px;
+    padding-top: 9px;
+    padding-left: 35px;
+    width: 280px;
+    margin-left: -50px;
+}
+.sidebarlist li:hover{
+    color: rgb(158, 157, 157);
+    font-size: 15px;
+}
+/*---------------------------------CATALOG-----------------------------------------*/
+
+.catalogtitle{
+    height: 20px;
+    width: 800px;
+    background: transparent;
+    margin-top:-30px;
+    margin-left: -16px;
+    border-bottom: black 2.5px solid;
+    padding-top: 6px;
+    padding-left: 40px;
+}
+.catalog{
+    width: 820px;
+    height: 750px;
+    background: transparent;
+    float: left;
+    margin-left: 410px;
+    margin-top: -450px;
+    border-radius: 10px;
+    padding-left: -15px;
+}
+
+div.one{
+    width: 230px;
+    height: 230px;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 15px;
+    float: left;
+    margin: 15px;
+    box-shadow: 0 4px 8px 0 rgba(27, 27, 27, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+
+
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Launch Count Down Timer</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="" href="">
+
+</head>
+<body>
+   <div class="the-container">
+       <span class="header">WE'RE LAUNCHING SOON</span>
+       <div class="days">
+           <p id="days">01</p>
+       </div>
+       <p class="dayLabel">DAYS</p>
+       <div class="hours">
+           <p id="hours">02</p>
+       </div>
+       <p class="hourLabel">HOURS</p>
+       <div class="minutes">
+           <p id="minutes">03</p>
+       </div> 
+       <p class="minuteLabel">MINUTES</p> 
+       <div class="seconds">
+           <p id="seconds">04</p>
+       </div>
+       <p class="secondsLabel">SECONDS</p>
+   </div>   
+   <footer class="footer">
+      <a href="www.facebook.com"><img src="assets/img/icon-facebook.svg" alt="" class="facebook-icon"></a> 
+      <a href="www.pinterest.com"><img src="assets/img/icon-pinterest.svg" alt="" class="pinterest-icon"></a>
+      <a href="www.instagram.com"><img src="assets/img/icon-instagram.svg" alt="" class="instagram-icon"></a>
+   </footer> 
+   <script type="text/javascript">
+    // declare the dealine
+    var deadline='January 1, 2021 00:00:59 GMT+0100(West African Time)';
+    // declare present's date
+    var todayDate=new Date();
+    function getTimeRemaining(){
+        // subtract the present date and deadline date in milliseconds
+    var millisecondsRemaining=Date.parse(deadline)-Date.parse(new Date());
+    // divide milliseconds by 1000 to get secondsRemaining
+    var secondsRemaining=millisecondsRemaining/1000;
+     // find remainder seconds after a minute
+    var Seconds= Math.floor((millisecondsRemaining/1000)%60);
+        // console.log(Seconds);
+    // find remaining minutes after an hour
+    var minutesRemaining=secondsRemaining/60;
+    var Minutes=Math.floor((secondsRemaining/60)%60);
+    // console.log(minutes);
+    // find remaining hours after a day
+    var hoursRemaining=minutesRemaining/60;
+    var Hours=Math.floor((minutesRemaining/60)%24);
+    // console.log(Hours);
+    var DaysRemaining=hoursRemaining/24;
+    var Days=Math.floor((hoursRemaining/24)%30);
+    // console.log(Days);
+    return{
+        Seconds,Minutes,Hours,Days
+    }
+    }
+    // console.log(getTimeRemaining().Seconds);
+    // var secondInterval=setInterval(getTimeRemaining.Seconds,1000);
+    // console.log(secondInterval);
+    var timeInterval=setInterval(()=>{
+    document.getElementById("days").innerHTML='0'+(getTimeRemaining().Days);
+    document.getElementById("hours").innerHTML= +(getTimeRemaining().Hours);
+    document.getElementById("minutes").innerHTML=(getTimeRemaining().Minutes);
+    document.getElementById("seconds").innerHTML=(getTimeRemaining().Seconds);
+    if(millisecondsRemaining<=0){
+        clearInterval(timeInterval);
+    }
+    },1000);
+    
+  </script>
+</body>
+</html>
